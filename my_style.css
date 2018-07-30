@@ -1,4 +1,9 @@
- h1 {color:red; text-align:center; font-size: 50px; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;}
+  div {color:blue; text-align:center; font-size: 50px; text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    position: fixed;
+    left: 200px;
+    top: 90px;
+    background:white;
+}
         p {color:white;     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;}
         a {color:white;font-size: 20px }
         img{border-radius: 20%; width: 30%; height: 30%}
@@ -8,11 +13,7 @@
  a:hover { 
     background-color: teal;
          transition: background-color 2s;
+}
+.important { color: red; }
 
-}
-div {
-	width: 330px;
-	height: 100px;
-	background: greenyellow;
-	position: relative;
-}
+
